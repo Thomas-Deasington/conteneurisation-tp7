@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ github.ref_name }} latest
+          tags: tdeasington/tp7:latest,tdeasington/tp7:${{ github.ref_name }}
